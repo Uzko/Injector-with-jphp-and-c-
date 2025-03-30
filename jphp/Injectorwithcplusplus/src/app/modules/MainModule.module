@@ -1,0 +1,58 @@
+{
+  "props": [],
+  "components": {
+    "Loading": {
+      "type": "script\\TimerScript",
+      "x": 128,
+      "y": 96,
+      "props": {
+        "interval": 4000,
+        "repeatable": false,
+        "autoStart": false
+      }
+    },
+    "close": {
+      "type": "script\\TimerScript",
+      "x": 176,
+      "y": 96,
+      "props": {
+        "interval": 5000,
+        "repeatable": false,
+        "autoStart": false
+      }
+    },
+    "fileChooser": {
+      "type": "script\\FileChooserScript",
+      "x": 64,
+      "y": 32,
+      "props": {
+        "initialDirectory": "C:\\",
+        "filterName": "Only dll's",
+        "filterExtensions": "*.dll",
+        "filterAny": "0",
+        "inputNode": "",
+        "actionNode": ""
+      }
+    },
+    "ini": {
+      "type": "script\\storage\\IniStorage",
+      "x": 176,
+      "y": 32,
+      "props": {
+        "path": "C:/GalaxyInjector/config.ini",
+        "autoSave": "1",
+        "multiLineValues": "1"
+      }
+    },
+    "Injection": {
+      "type": "script\\TimerScript",
+      "x": 128,
+      "y": 32,
+      "props": {
+        "interval": 1000,
+        "repeatable": false,
+        "autoStart": false
+      }
+    }
+  }
+}

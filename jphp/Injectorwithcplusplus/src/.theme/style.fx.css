@@ -1,0 +1,51 @@
+/* JavaFX CSS Style with -fx- prefix */
+
+.background {
+    -fx-fill: #241f29;
+    -fx-background-color: #241f29;
+}
+
+.butt {
+    -fx-text-fill: linear-gradient(to right, #a29bfe 10%, #6c5ce7 100%);
+    -fx-background-color: transparent;
+    -fx-border-color: linear-gradient(to right, #a29bfe 10%, #6c5ce7 100%);
+    -fx-border-width: 2px;
+    -fx-border-radius: 2px;
+}
+
+.text {
+    -fx-text-fill: linear-gradient(to right, #a29bfe 10%, #6c5ce7 100%);
+}
+
+.WTF {
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(to right, #a29bfe 10%, #6c5ce7 100%);
+    -fx-border-radius: 4px;
+}
+
+.JustLine {
+    -fx-fill: linear-gradient(to right, #a29bfe 10%, #6c5ce7 100%);
+}
+
+.errorf {
+    -fx-fill: linear-gradient(to right, #ff3b3f 0%, #ff6b6b 100%);
+}
+
+.progress-bar > .bar {
+    -fx-background-color: linear-gradient(to right, #5aa7c1 10%, #5a67ab 100%);
+    -fx-padding: 0.75em;
+}
+.progress-bar:indeterminate > .bar {
+    -fx-background-color: linear-gradient(to right, #5aa7c1 10%, #5a67ab 100%);
+    -fx-border-radius: 4px;
+}
+
+.progress-barr:indeterminate > .bar {
+    -fx-background-color: linear-gradient(to right, #e5646e 10%, #e5646e 100%);
+    -fx-border-radius: 4px;
+}
+
+.progress-bar > .track {
+      -fx-background-color: linear-gradient(to bottom right, #333a42 10%, #333a42 70%);
+}
+

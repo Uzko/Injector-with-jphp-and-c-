@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="304" prefWidth="512" styleClass="">
+  <children>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#241f29" focusTraversable="false" height="288" id="rect" layoutX="8" layoutY="8" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="background " width="496"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="120" layoutY="248" prefHeight="32" prefWidth="272" styleClass="button butt " text=" Inject!" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="24" layoutY="72" prefHeight="17" prefWidth="432" styleClass="label text " text="Process name" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="24" layoutY="112" prefHeight="17" prefWidth="432" styleClass="label text " text="Dll file" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="464" layoutY="64" prefHeight="32" prefWidth="32" styleClass="button WTF " text="..." textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button3" layoutX="464" layoutY="104" prefHeight="32" prefWidth="32" styleClass="button WTF " text="..." textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button3" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="8" layoutY="136" prefHeight="104" prefWidth="496" styleClass="label " text="This application was created for personal use, with the purpose of testing.&#10;Is it possible to work effectively with JPHP and C++.&#10;I do not take responsibility for the use of this application." textAlignment="CENTER" textFill="#fafafa" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" focusTraversable="false" height="2" id="rectAlt" layoutX="16" layoutY="40" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="JustLine " width="160"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
+    <Data cursor="HAND" enabled="1" id="data-label4" visible="1"/>
+    <Data cursor="HAND" enabled="1" id="data-label5" visible="1"/>
+    <LabelEx alignment="TOP_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="24" layoutY="16" prefHeight="15.9609375" prefWidth="148.453125" styleClass="label text " text="Galaxy Injector       (★ ω ★)" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
+    <Panel backgroundColor="#00000082" borderColor="#c0c0c0" borderRadius="9" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="8" layoutY="328" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="288" prefWidth="496" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <Rectangle arcHeight="20" arcWidth="20" fill="#241f29" focusTraversable="false" height="96" id="rect25" layoutX="104" layoutY="96" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="background " width="288"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-rect25" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label7" layoutX="216" layoutY="168" prefHeight="15.9609375" prefWidth="67.03125" styleClass="label text " text="In progress..." textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label7" visible="1"/>
+        <Circle focusTraversable="false" id="circle" layoutX="248" layoutY="132" radius="28" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="JustLine "/>
+        <Data cursor="DEFAULT" enabled="1" id="data-circle" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <Panel backgroundColor="#00000082" borderColor="#c0c0c0" borderRadius="9" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panelAlt" layoutX="536" layoutY="8" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="288" prefWidth="496" styleClass="" titleColor="#00000082" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <Rectangle arcHeight="20" arcWidth="20" fill="#241f29" focusTraversable="false" height="120" id="rect3" layoutX="104" layoutY="84" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="background " width="288"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-rect3" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button4" layoutX="112" layoutY="160" prefHeight="32" prefWidth="272" styleClass="button butt " text="Add!" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="112" layoutY="120" prefColumnCount="12" prefHeight="32" prefWidth="272" promptText="csgo.exe" text="">
+          <styleClass xmlns:fx="http://javafx.com/fxml">
+            <String fx:value="text-input"/>
+            <String fx:value="text-field"/>
+            <String fx:value="background"/>
+            <String fx:value="text"/>
+          </styleClass>
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="144" layoutY="96" prefHeight="17" prefWidth="208" styleClass="label text " text="Write here your process" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label8" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="375" layoutY="85" prefHeight="18.62109375" prefWidth="14" styleClass="label text " text="✕" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="14"/>
+          </font>
+        </LabelEx>
+        <Data cursor="HAND" enabled="1" id="data-label9" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="480" layoutY="8" prefHeight="23.94140625" prefWidth="18" styleClass="label text " text="✕" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="18"/>
+      </font>
+    </LabelEx>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="464" layoutY="8" prefHeight="23.94140625" prefWidth="9" styleClass="label text " text="–" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="18"/>
+      </font>
+    </LabelEx>
+  </children>
+</AnchorPane>
