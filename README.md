@@ -2,7 +2,7 @@
 This project is an injector created using JPHP on DevelNext and C++. It is intended for research and educational purposes only.
 Use this project at your own risk. The author takes no responsibility for any consequences.
 
-###Bundles in Develnext
+### Bundles in Develnext
 I used only the Windows bundle: [jphp-windows-ext](https://github.com/TsSaltan/jphp-windows-ext)
 
 ### Compatibility  
